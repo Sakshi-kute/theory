@@ -1,0 +1,199 @@
+
+body{
+
+	font-family: 'Raleway', sans-serif;
+}
+.big-wrapper{
+	width: 100%;
+	height: 600px;
+    background-image: url("../img/dd.jpg");
+    border-top: 10px solid #5385c1;
+   }
+   #my-navigation{
+   	position: relative;
+   	top: 50px;
+   	color: #fff;
+   	background: none;
+   	border: 0px;
+   }
+   #my-navigation a{
+   	color: #fff;
+   	font-size: 18px;
+
+   }
+   .icon-bar{
+   	background-color: #fff;
+   	border-color:#fff;
+   }
+   .banner{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 130px;
+   }
+   .banner h1{
+    font-weight: 100;
+    font-size: 65px;
+   }
+   .banner p{
+    margin-top:30px;
+    font-size: 17px;
+  }
+  /*three section starts here*/
+  .three-section{
+    padding: 50px;
+  }
+  .custom{
+    padding: 0px 30px;
+  }
+  .custom h2{
+    color: #5385c1;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 35px;
+  }
+  .custom p{
+    line-height: 28px;
+    margin-top: 25px;
+  }
+  .add-border{
+    border-style:solid;
+    border-width: 0px 1px 0px 1px;
+    border-color: #dbdbdb;
+
+
+  }
+ .my-button{
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: #5385c1;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 25px;
+
+ }
+
+/*team*/
+.team{
+  width: 100%;
+  background-color: #5385c1;
+  color: #fff;
+  padding: 120px 0; 
+}
+.team h1{
+  font-size: 55px;
+  font-weight: 500;
+  padding: 10px;
+}
+.team p{
+  font-size: 18px;
+
+}
+.person {
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+.person h2{
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 15px;
+}
+/*two section*/
+.two-section h1{
+  color: #5385c1;
+  font-size: 55px;
+  font-weight: 100;
+  margin-top: 50px;
+}
+.two-section p{
+  font-size: 16px;
+  color: gray;
+  line-height: 30px;
+}
+.section-1,.section-2{
+  padding-right: 50px;
+  margin-top: 80px;
+}
+
+.section-1 img, .section-2 img{
+  width: 100%
+}
+.section-1 h1,.section-2 h1{
+  font-size: 25px;
+  font-weight: 500;
+  color:#5385c1;
+  line-height: 20px;
+  padding: 25px 0;
+}
+.section-1 p, .section-2 p{
+  font-size: 16px;
+  color: gray;
+  line-height: 30px;
+  text-align: justify;
+
+}
+/*footer starts here*/
+.footer{
+  border-top: 1px solid #dadada;
+  padding: 50px;
+  margin-top: 100px;
+
+}
+.footer p{
+  font-size: 15px;
+
+}
+.footer span{
+  padding: 10px;
+  font-size:18px;
+  color: #5385c1;
+}
+
+
+@media only screen and (max-width: 992px){
+  .banner h1{
+  font-size: 47px;
+  }
+  .footer p{
+    font-size: 12px;
+    float: left;
+  }
+  .footer span{
+    font-size: 12px;
+  }
+}
+
+
+@media only screen and (max-width: 768px){
+  .banner h1{
+    font-size: 30px;
+  }
+  .banner p{
+    font-size: 15px;
+  }
+  .custom h2{
+    font-size: 22px;
+  }
+  .team h1{
+    font-size: 30px;
+  }
+  .add-border{
+    border: none;
+  }
+  .footer p{
+    font-size: 10px;
+    text-align: left;
+    }
+  .footer span {
+    font-size: 12px;
+   margin:0 auto;
+   padding: 5px;
+   }
+}
+
